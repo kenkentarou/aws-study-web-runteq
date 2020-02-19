@@ -1,8 +1,8 @@
-lock "~> 3.11.2"
+lock "~> 3.12.0"
 
 set :application, "aws-study-simple-app"
-set :repo_url, "git@github.com:DaichiSaito/aws-study-simple-app.git"
-set :user, 'daichi'
+set :repo_url, "https://github.com/kenkentarou/aws-study-web-runteq.git"
+set :user, 'tarou'
 set :deploy_to, "/var/www/aws-study-simple-app"
 set :linked_files, %w[config/master.key config/database.yml]
 set :linked_dirs, %w[log tmp/pids tmp/cache tmp/sockets public/system vendor/bundle]
