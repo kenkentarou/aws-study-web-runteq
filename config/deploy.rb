@@ -15,7 +15,7 @@ set :puma_pid, "#{shared_path}/tmp/pids/puma.pid"
 set :puma_access_log, "#{release_path}/log/puma.error.log"
 set :puma_error_log, "#{shared_path}/log/puma.access.log"
 set :puma_preload_app, true
-set :yarn_bin, "~/.nodebrew/current/bin/yarn"
+set :yarn_bin, "/home/tarou/.nodebrew/current/bin/yarn"
 
 namespace :puma do
   desc 'Create Directories for Puma Pids and Socket'
