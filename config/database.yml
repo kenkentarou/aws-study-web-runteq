@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: aws_study_runteq_production
-  username: aws_study_runteq
-  password: <%= ENV['AWS_STUDY_RUNTEQ_DATABASE_PASSWORD'] %>
+  username: admin
+  password: password
+  host: database-1.ccnomappdbwq.ap-northeast-1.rds.amazonaws.com
