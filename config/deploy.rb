@@ -1,9 +1,9 @@
 lock "~> 3.12.0"
 
-set :application, "aws-study-simple-app"
+set :application, "aws-study-web-runteq"
 set :repo_url, "https://github.com/kenkentarou/aws-study-web-runteq.git"
 set :user, 'tarou'
-set :deploy_to, "/var/www/aws-study-simple-app"
+set :deploy_to, "/var/www/aws-study-web-runteq"
 set :linked_files, %w[config/master.key config/database.yml]
 set :linked_dirs, %w[log tmp/pids tmp/cache tmp/sockets public/system vendor/bundle]
 set :rbenv_ruby, File.read('.ruby-version').strip
