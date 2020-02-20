@@ -15,7 +15,7 @@ set :puma_pid, "#{shared_path}/tmp/pids/puma.pid"
 set :puma_access_log, "#{release_path}/log/puma.error.log"
 set :puma_error_log, "#{shared_path}/log/puma.access.log"
 set :puma_preload_app, true
-set :default_env, { path: "/home/ubuntu/.nvm/versions/node/v13.9.0/bin" }
+set :yarn_bin, "~/.yarn/bin/yarn"
 
 namespace :puma do
   desc 'Create Directories for Puma Pids and Socket'
